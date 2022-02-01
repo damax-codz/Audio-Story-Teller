@@ -188,5 +188,5 @@ details>p{
 @media (max-width:700px) {
     .first-row{display: flex;flex-direction: column;align-items: center;}
     .first-row>div{margin-top: 20px;}
-    .header{font-size: 15px;margin-bottom: 50px;}
+    .header{font-size: 10px;margin-bottom: 50px;}
 }
