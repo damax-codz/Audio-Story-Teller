@@ -6,7 +6,7 @@ function speak(){
     if(butt=="fas fa-play"){
     document.getElementsByTagName('i')[2].className='fas fa-pause'
     let story = document.getElementById('story')
-    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.85
+    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.9
     })
    
     document.querySelector('.one').style.animationPlayState='running'
@@ -28,7 +28,7 @@ function speakTwo(){
     if(butt=="fas fa-play"){
     document.getElementsByTagName('i')[3].className='fas fa-pause'
     let story = document.getElementById('story-two')
-    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.85})
+    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.9})
    
     document.querySelectorAll('.one')[1].style.animationPlayState='running'
     document.querySelectorAll('.two')[1].style.animationPlayState='running'
@@ -49,7 +49,7 @@ function speakThree(){
     if(butt=="fas fa-play"){
     document.getElementsByTagName('i')[4].className='fas fa-pause'
     let story = document.getElementById('story-three')
-    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.85})
+    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.9})
 
     document.querySelectorAll('.one')[2].style.animationPlayState='running'
     document.querySelectorAll('.two')[2].style.animationPlayState='running'
@@ -70,7 +70,7 @@ function speakFour(){
     if(butt=="fas fa-play"){
     document.getElementsByTagName('i')[5].className='fas fa-pause'
     let story = document.getElementById('story-four')
-    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.85})
+    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.9})
    
     document.querySelectorAll('.one')[3].style.animationPlayState='running'
     document.querySelectorAll('.two')[3].style.animationPlayState='running'
@@ -92,7 +92,7 @@ function speakFive(){
     if(butt=="fas fa-play"){
     document.getElementsByTagName('i')[6].className='fas fa-pause'
     let story = document.getElementById('story-five')
-    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.85})
+    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.9})
    
     document.querySelectorAll('.one')[4].style.animationPlayState='running'
     document.querySelectorAll('.two')[4].style.animationPlayState='running'
@@ -113,7 +113,7 @@ function speakSix(){
     if(butt=="fas fa-play"){
     document.getElementsByTagName('i')[7].className='fas fa-pause'
     let story = document.getElementById('story-six')
-    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.85})
+    responsiveVoice.speak(story.innerHTML, "US English Female", {rate: 0.9})
    
     document.querySelectorAll('.one')[5].style.animationPlayState='running'
     document.querySelectorAll('.two')[5].style.animationPlayState='running'
