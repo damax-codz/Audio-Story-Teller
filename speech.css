@@ -1,0 +1,192 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.335),rgba(0, 0, 0, 0.335)),url('https://previews.123rf.com/images/motizova/motizova1608/motizova160800266/61508802-libro-aperto-libri-con-copertina-rigida-sulla-tavola-di-legno-educazione-di-base-di-nuovo-a-scuola-c.jpg');
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 100px 0px ;
+    color: rgb(18, 18, 19);
+    font-size: 20px;
+}
+.header>i{
+    transform: scale(1.5);
+    margin: 15px 15px 0px 15px ;
+}
+.header>h1{
+    font-family: 'Lobster';
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.first-row{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+}
+.first-row>div{
+    width: 250px;
+    height: 250px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.335);
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ 
+}
+details{
+    margin-top: 10px;
+    color: rgba(243, 212, 146,0.8);
+}
+summary{
+    font-weight: bolder;
+    font-size: 30px;
+}
+details>p{
+    font-size: 20px;
+}
+#story{
+    display: none;
+}
+#story-two{
+    display: none;
+}
+#story-three{
+    display: none;
+}
+#story-four{
+    display: none;
+}
+#story-five{
+    display: none;
+}
+#story-six{
+    display: none;
+}
+.story-one{
+    background: linear-gradient(rgba(0, 0, 0, 0.535),rgba(0, 0, 0, 0.535)),url('https://i0.wp.com/storiestogrowby.org/wp-content/uploads/2020/02/PinocchioandBlueFairyWand.jpg?w=300&ssl=1');
+}
+.story-two{
+    background: linear-gradient(rgba(0, 0, 0, 0.535),rgba(0, 0, 0, 0.535)),url('https://i0.wp.com/storiestogrowby.org/wp-content/uploads/2019/04/Snow-White-and-the-Seven-Dwarfs-Cover.png?w=300&ssl=1');
+}
+.story-three{
+    background: linear-gradient(rgba(0, 0, 0, 0.535),rgba(0, 0, 0, 0.535)),url('https://i0.wp.com/storiestogrowby.org/wp-content/uploads/2018/08/maui2-e1534511183632.png?w=299&ssl=1');   
+}
+.story-four{
+    background: linear-gradient(rgba(0, 0, 0, 0.535),rgba(0, 0, 0, 0.535)),url('https://i0.wp.com/storiestogrowby.org/wp-content/uploads/2019/01/IMG-4882.jpg?resize=150%2C150&ssl=1') ;
+}
+.story-five{
+    background: linear-gradient(rgba(0, 0, 0, 0.535),rgba(0, 0, 0, 0.535)),url('https://i0.wp.com/storiestogrowby.org/wp-content/uploads/2019/07/genie-2590056_640.jpg?w=300&ssl=1') ;
+}
+.story-six{
+    background: linear-gradient(rgba(0, 0, 0, 0.535),rgba(0, 0, 0, 0.535)),url('https://i0.wp.com/storiestogrowby.org/wp-content/uploads/2018/06/Robin-Hood-and-the-Golden-Arrow-Story_2.jpg?w=300&ssl=1') ;
+}
+
+
+.butt{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0,0);
+    border-radius: 50%;
+    border: 3px solid rgba(243, 212, 146,0.8);
+}
+.butt>i{
+    color: rgba(243, 212, 146,0.8);
+  
+}
+#butt-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: white; */
+}
+#butt-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+}
+.one{
+    width: 5px;
+    background-color:rgba(243, 212, 146,0.8);
+    margin: 10px 3px 0px 10px;
+    border-radius: 5px;
+    animation: one   infinite ease-in;
+    animation-duration: 5s;
+    animation-play-state: paused;
+}
+@keyframes one {
+    0%{height: 40px;margin-top: 0px;}
+    20%{height: 20px;margin-top: 15px;}
+    40%{height: 40px;margin-top: 0px;}
+    6%{height: 40px;margin-top: 0px;}
+    80%{height: 20px;margin-top: 15px;}
+    100%{height: 40px;margin-top: 0px;}
+}
+.two{
+    width: 5px;
+    background-color: rgba(243, 212, 146,0.8);
+    margin: 10px 3px 0px 5px;
+    border-radius: 5px;
+    animation: two   infinite ease-out;
+    animation-duration: 5s;
+    animation-play-state: paused;
+}
+@keyframes two {
+    0%{height: 30px;margin-top: 5px;}
+    20%{height: 40px;margin-top: 5px;}
+    40%{height: 10px;margin-top: 20px;}
+    50%{height: 30px;margin-top: 5px;}
+    70%{height: 40px;margin-top: 5px;}
+    100%{height: 10px;margin-top: 20px;}
+}
+.three{
+     width: 5px;
+     background-color: rgba(243, 212, 146,0.8);
+     margin: 10px 3px 0px 5px;
+     border-radius: 5px;
+     animation: three   infinite linear;
+     animation-duration: 5s;
+     animation-play-state: paused;
+    }
+    @keyframes three {
+        0%{height: 20px;margin-top: 5px;}
+        20%{height: 40px;margin-top: 5px;}
+        40%{height: 10px;margin-top: 10px;}
+        50%{height: 20px;margin-top: 5px;}
+        60%{height: 40px;margin-top: 5px;}
+        80%{height: 10px;margin-top: 10px;}
+    }
+.reactor{
+    display: flex;
+    width: 100px;
+    visibility: hidden;
+} 
+
+.reactor-three{
+    display: flex;
+    width: 100px;
+    visibility: hidden;
+} 
+.reactor-four{
+    display: flex;
+    width: 100px;
+    visibility: hidden;
+} 
+.reactor-five{
+    display: flex;
+    width: 100px;
+    visibility: hidden;
+} 
+.reactor-six{
+    display: flex;
+    width: 100px;
+    visibility: hidden;
+} 
+@media (max-width:700px) {
+    .first-row{display: flex;flex-direction: column;align-items: center;}
+    .first-row>div{margin-top: 20px;}
+    .header{font-size: 15px;margin-bottom: 50px;}
+}
