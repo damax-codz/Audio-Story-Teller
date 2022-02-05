@@ -1,5 +1,6 @@
 document.getElementById('stpry').innerHTML.trim()
 
+alert("welcome to story town");*
 
 function speak(){
     let butt=document.getElementsByTagName('i')[2].className
